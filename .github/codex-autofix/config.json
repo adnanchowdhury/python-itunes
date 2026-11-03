@@ -16,5 +16,10 @@
     "public/storage"
   ],
   "blocked_reason": "Existing tests use legacy nose and live Apple endpoints; synthetic fixtures are needed.",
-  "readiness": "Review only until prerequisite is resolved."
+  "readiness": "Review only until prerequisite is resolved.",
+  "ci_workflows": [
+    {
+      "name": "codex-autofix-tests.yml"
+    }
+  ]
 }
